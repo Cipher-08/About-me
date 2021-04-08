@@ -1,0 +1,139 @@
+        * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .front {
+        background-image: url(https://www.desktopbackground.org/download/o/2012/12/08/495736_websites-background-images-hd-wallpapers-pretty_1920x1080_h.jpg);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-1 {
+        height: 100vh;
+        display: flex;
+        background-image: url(https://cdn.wallpapersafari.com/71/99/kV457j.jpg);
+    }
+    
+    .about-2 {
+        height: 100vh;
+        display: flex;
+        background-image: url(https://wallpaperaccess.com/full/731608.jpg);
+    }
+    
+    .about-3 {
+        height: 100vh;
+        display: flex;
+        background-image: url(https://cdn.wallpapersafari.com/25/25/7Zg2ux.jpg);
+    }
+    
+    .about-me {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+    .about-pages {
+        width: 50%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-pages-3 {
+        width: 50%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-pages-1 {
+        width: 50%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-pages-2 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer {
+        height: 100vh;
+        background-color: peru;
+    }
+    
+    .button,
+    .button-myself,
+    .button-projects,
+    .button-interest {
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 40px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    
+    .nav-links {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fonts {
+        padding: 30px;
+        display: flex;
+        list-style: none;
+        transition: 1s;
+    }
+    
+    .fonts:hover {
+        height: 60px;
+    }
+    
+    .line {
+        list-style: none;
+    }
+    
+    .video {
+        margin: 10px;
+    }
+    
+    .image {
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image:hover {
+        height: 80px;
+    }
+    
+    .interest {
+        font-size: 20px
+    }
+    
+    .interest:hover {
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    .text {
+        margin-top: 0px !important;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
